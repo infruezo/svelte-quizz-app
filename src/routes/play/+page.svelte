@@ -54,7 +54,7 @@
           id="questionsNumber"
           class="w-full px-4 py-2 text-sm shadow-md outline-none ring-1 ring-blue-200 selection:ring-blue-400"
         >
-          <option value="10" disabled selected>Any (default 10)</option>
+          <option value="5" disabled selected>Any (default 5)</option>
           {#each numbers as number}
             <option value={number} id={number}>{number}</option>
           {/each}
